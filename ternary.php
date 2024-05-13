@@ -19,10 +19,10 @@ echo $numberInword;
 
 echo "\n";
 
-// $number = (12 == $n) ? "Twelve" : (10 == $n) ? "Ten": "A Number";
+// $number = (12 == $n) ? "Twelve" : ((10 == $n) ? "Ten": "A Number");
 // echo $number;
 
-// var_dump($number);
+
 
 // echo "\n";
 
@@ -39,8 +39,12 @@ echo "\n";
 $result = $n % 2 == 0 ? "Even Number" : "Odd Number";
 echo $result;
 
+echo PHP_EOL;
 
 
 
+$f = 10;
+$test2 = ($f % 2 == 0) ? "A" : (($f == 11) ? "B" : "C");
+echo $test2;
 
 

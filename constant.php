@@ -4,7 +4,7 @@
 Constant
 ====
 */
-define('PI',3.14159);
+define('PI', 3.14159);
 
 //This is wrong way
 // echo "Value is PI = {PI}";

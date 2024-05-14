@@ -75,9 +75,9 @@ if("tuna" == $food){
 $food = "oringe";
 if ("tuna" == $food || "salmon" == $food) {
   echo "It has vitamin D";
-} elseif("apple" == $food){
+} elseif ("apple" == $food) {
   echo "Apple does't contain vitamin D";
-}else{
+} else {
   echo "We don't know if it contains vitamin D";
 }
 

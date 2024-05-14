@@ -76,9 +76,9 @@ printf("This is post code %u in %s", $number, strtoupper($string));
  */
 
 
-  $str1 = "Hello";
-  $str2 = "Hello world!";
-  printf("%'*8s", $str1);
+$str1 = "Hello";
+$str2 = "Hello world!";
+printf("%'*8s", $str1);
 
 
 

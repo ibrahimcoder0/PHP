@@ -4,11 +4,11 @@
 
 $n = 12;
 
-if(12 == $n){
+if (12 == $n) {
   echo "Twelve";
-}elseif(10 == $n){
+} elseif (10 == $n) {
   echo "Ten";
-}else{
+} else {
   echo "A number";
 }
 
@@ -27,9 +27,9 @@ echo "\n";
 // echo "\n";
 
 
-if($n % 2 == 0){
+if ($n % 2 == 0) {
   echo "Even Number";
-}else{
+} else {
   echo "Odd Number";
 }
 

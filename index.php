@@ -1,7 +1,7 @@
 <?php
 /*
 ====
-Php Start here
+PHP Start here
 ====
 */
 
